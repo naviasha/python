@@ -127,7 +127,7 @@ def Exit():
         cursor.close()
         conn.close()
         exit()
-
+#test
 def Chnglog():
     tm.showinfo("Changelog", "v1.0 - Only GUI \nv1.1 - Accepts inputs and saves it to text file \nv1.2 - Open previous logs\nv1.3 - SQLite3 Database integration")
 
